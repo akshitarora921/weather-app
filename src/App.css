@@ -5,7 +5,14 @@ html, body, #root {
   height: 100%;
   margin: 0;
 }
-
+.logo{
+  position: absolute;
+  top:0%;
+  font-size:2.5rem;
+  margin-top: 0px;
+  color: #eee;
+  text-align: center;
+}
 .main-container {
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?crop=entropy&cs=srgb&dl=island-during-golden-hour-and-upcoming-storm-1118873.jpg&fit=crop&fm=jpg&h=719&w=1280');
   background-size: cover;

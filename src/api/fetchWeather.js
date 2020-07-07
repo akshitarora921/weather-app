@@ -9,6 +9,5 @@ export const fetchWeather= async(city)=>{
             APPID:app_id
         }
     })
-    console.log(data)
     return data
 }
